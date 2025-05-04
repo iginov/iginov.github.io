@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Портфолио | Андрей Игинов" />
+    <meta name="description" content="Мои проекты по веб-разработке" />
+    <title>Портфолио | Андрей Игинов</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-X"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-XXXXX-X");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">Андрей Игинов</div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="resume.html">Резюме</a></li>
+            <li><a href="portfolio.html" class="active">Портфолио</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="theme-toggle">☀️/🌙</div>
+      </div>
+    </header>
+    <main>
+      <section class="portfolio fade-in">
+        <div class="container">
+          <h1>Мое портфолио</h1>
+          <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="html-css">HTML/CSS</button>
+            <button class="filter-btn" data-filter="javascript">
+              JavaScript
+            </button>
+            <button class="filter-btn" data-filter="git">Git</button>
+          </div>
+          <div class="portfolio-grid" id="portfolio-grid">
+            <!-- Проекты будут добавлены динамически через JS -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Андрей Игинов. Все права защищены.</p>
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

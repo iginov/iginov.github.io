@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Андрей Игинов - Веб-разработчик" />
+    <meta
+      name="description"
+      content="Персональный сайт Андрея Игинова, начинающего веб-разработчика. Узнайте о моих навыках и проектах."
+    />
+    <title>Андрей Игинов - Веб-разработчик</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-X"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-XXXXX-X");
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">Андрей Игинов</div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html" class="active">Главная</a></li>
+            <li><a href="pages/resume.html">Резюме</a></li>
+            <li><a href="pages/portfolio.html">Портфолио</a></li>
+            <li><a href="pages/blog.html">Блог</a></li>
+            <li><a href="pages/contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="theme-toggle">☀️/🌙</div>
+      </div>
+    </header>
+    <main>
+      <section class="hero fade-in">
+        <div class="container">
+          <h1>Привет, я Андрей Игинов, начинающий веб-разработчик</h1>
+          <p>Я увлечен созданием современных и удобных веб-приложений.</p>
+          <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="pages/contact.html" class="btn">Связаться со мной</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Андрей Игинов. Все права защищены.</p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
