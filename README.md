@@ -49,8 +49,8 @@
 3. В файле `pages/resume.html` добавьте ссылку на PDF в тег `<a href="ваша_ссылка">Скачать резюме (PDF)</a>`.
 
 ## Контакты
-- Email: b.games@mail.ru
-- Сайт: [https://iginov.ru/](https://iginov.ru/)
+- Email: [andreyiginov@ya.ru](mailto:andreyiginov@ya.ru)
+- Сайт: [iginov.ru](https://iginov.ru/)
 - GitHub: [ваш профиль]
 - LinkedIn: [ваш профиль]
 - Telegram: [ваш профиль] 
